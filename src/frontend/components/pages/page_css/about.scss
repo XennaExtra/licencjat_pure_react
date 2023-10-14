@@ -1,0 +1,21 @@
+.aboutCon{
+  margin-top: 5rem;
+  display:block;
+  flex-direction: row;
+  #fullSize{
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.aboutSec{
+  float:left;
+  width:50%;
+  margin-left: auto;
+  margin-right: auto;
+  display:flex;
+  flex-direction: row;
+}
+.aboutSec2{
+  width:50%;
+  display:flex;
+}

@@ -7,7 +7,14 @@ export function LandingPageShortcutButtons(){
                     <div className={"cross"}></div>
                     <span className={"scMapText"}>Nasze<br/>placówki</span>
                 </section>
-                Znajdź naszą placówkę najbliżej siebie!
+                <section className={"scList"}>
+                    <div className={"cross"}></div>
+                    <span className={"scMapText"}>Lista<br/>badań</span>
+                </section>
+                <section className={"scCheck"}>
+                    <div className={"cross"}></div>
+                    <span className={"scMapText"}>Sprawdź<br/>wyniki</span>
+                </section>
             </article>
 
         </>
