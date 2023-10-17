@@ -1,22 +1,26 @@
 import './component_css/landing_sc_buttons.scss'
+
 export function LandingPageShortcutButtons(){
     return(
         <>
             <article className={"scParent"}>
-                <section className={"scMap"}>
+                <a href="/mapa-punktow" className='scMap'>
                     <div className={"cross"}></div>
                     <span className={"scMapText"}>Nasze<br/>placówki</span>
-                </section>
-                <section className={"scList"}>
+                </a>
+                <a className={"scList"} href="/lista-badan">
                     <div className={"cross"}></div>
                     <span className={"scMapText"}>Lista<br/>badań</span>
-                </section>
-                <section className={"scCheck"}>
+                </a>
+                <a className={"scCheck"} href="/wyniki-online-start">
                     <div className={"cross"}></div>
                     <span className={"scMapText"}>Sprawdź<br/>wyniki</span>
-                </section>
+                </a>
+
             </article>
 
         </>
     )
 }
+
+

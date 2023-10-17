@@ -1,0 +1,16 @@
+.contactBlock{
+    margin-top: 8rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: auto;
+    margin-right:auto;
+    width: fit-content;
+    border: 2px solid darkgray;
+    border-radius: 7px;
+    padding: 2rem;
+
+    h5{
+        margin-bottom: 0;
+    }
+}
