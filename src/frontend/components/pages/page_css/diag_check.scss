@@ -1,0 +1,41 @@
+.diagCon{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+}
+.diagAside{
+    width: 45%;
+    height:max-content;
+    display: block;
+    float: left;
+
+    .diagForm{
+        margin-top: 6rem;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+        align-items: center;
+        border: 1px solid darkgray;
+        border-radius: 7px;
+        margin-left: 2rem;
+        padding: 3rem;
+        h2{
+            margin-top: 0; 
+            margin-right: -3rem;
+            text-align: center;
+        }
+        input{
+            height: fit-content;
+            width: 50%;
+            font-size: large;
+        }
+        input[type="submit"]{
+            border: 1px solid darkgray;
+            width: 50%;
+            color: darkblue;
+            border-radius: 5px;
+            padding: 0.4rem;
+            margin-top: 1rem;
+        }
+    }
+}
