@@ -1,3 +1,52 @@
+<<<<<<< HEAD
+.diagAside{
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    float: left;
+    border: 1px solid darkgray;
+    border-radius:7px;
+    text-align: center;
+    margin-left: 5rem;
+    h1{
+        height: fit-content;
+    }
+    width: 40%;
+    overflow:hidden;
+}
+.diagAside:last-of-type{
+    border: none;
+    margin-top: -3rem;
+}
+.diagCon{
+    margin-top: 6rem;
+}
+.diagForm{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2,1fr);
+    grid-column-gap: 2rem;
+    input{
+        height: fit-content;
+    }
+    h2{
+        margin-top: 0;
+    }
+    input[type="submit"]{
+        color: darkblue;
+        border: 1px solid darkgray;
+        border-radius: 7px;
+        padding: 0.4rem;
+        font-weight: bold;
+        width: fit-content;
+        left: 50%;
+    }
+}
+a:visited{
+    text-decoration: none;
+    color: darkblue;
+}
+=======
 .diagCon{
     width:100%;
     display: flex;
@@ -39,3 +88,4 @@
         }
     }
 }
+>>>>>>> 82f0646f9509430efa66a031dd92069611163c90
