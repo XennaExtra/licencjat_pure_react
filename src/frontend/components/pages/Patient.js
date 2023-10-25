@@ -16,6 +16,7 @@ export function Patient() {
             <label> </label>
             <input type='submit' value='Zaloguj się'/>
           </form>
+          <a href="/wyniki-online-start"><h2>Nie masz konta? Sprawdź swoje wyniki tutaj!</h2></a>
         </aside>
         <aside className='diagAside'>
           <img src={diag_pic} alt="background"></img>

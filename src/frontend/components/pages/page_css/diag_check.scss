@@ -11,11 +11,13 @@
         height: fit-content;
     }
     width: 40%;
-    overflow:hidden;
 }
 .diagAside:last-of-type{
     border: none;
     margin-top: -3rem;
+    img{
+        overflow-y:hidden;
+    }
 }
 .diagCon{
     margin-top: 6rem;
