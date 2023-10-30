@@ -1,30 +1,26 @@
 import React from 'react'
 import { Component } from 'react'
 import './component_css/contact_form.scss'
-import axios from 'axios'
 
 export class ContactForm extends Component {
-  constructor(){
-    super();
-    this.state = {
-      data: [],
+
+  constructor(props){
+    super(props);
+    this.state={
+      full_name: "",
+      patientId: "",
+      patientEmail: "",
+      patientMessage: ""
     }
+    this.handleChange = this.handleChange.bind(this);
+    this.handleSubmit = this.handleSubmit.bind(this);
   }
 
-  getData = () => {
-    axios.post("../../backend/db_connect.php")
-      .then(response => {
-        this.setState({dane: response.data});
-      })
-      .catch(error => {
-        console.error(error);
-      })
-  }
   render() {
   return (
     <>
         <h1>Skontaktuj się z nami!</h1>
-        <form className='contactForm' action={this.getData()}>
+        <form className='contactForm' action={''}>
             <label htmlFor='full_name'><h2>Imię i nazwisko*</h2></label>
             <input type='text' name='full_name' placeholder='Jan Kowalski' required></input>
             <label htmlFor='patient_id'><h2>Numer pacjenta`</h2></label>
